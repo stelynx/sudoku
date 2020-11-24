@@ -1,0 +1,32 @@
+name: sudoku
+description: A Sudoku puzzle implemented in Flutter.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  firebase_admob: ^0.10.0+2
+  firebase_core: ^0.5.0+1
+  flutter_bloc: ^6.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: false
+  ios: true
+  image_path: "assets/misc/icon.png"
